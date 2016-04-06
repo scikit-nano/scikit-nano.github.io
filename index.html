@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="scikit-nano: Python Toolkit for Nanoscience." />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/scikit-nano.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.sidr.light.css" />
+
+<title>scikit-nano</title>
+
+<!-- Google analytics -->
+<script src="js/analytics.js"></script>
+</head>
+
+<body id="index">
+
+<div id="wrapper">
+    <nav>
+        <div id="mobile-header">
+            <!-- Menu Icon -->
+            <a id="responsive-menu-button" href="#sidr-main"></a>
+            <!-- -->
+        </div>
+        <a href="index.html"><img src="images/scikit-nano.svg" height="32" onerror="this.src='images/scikit-nano.png; this.onerror=null;"/></a>
+        <div id="navigation">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="help.html">Get Help</a></li>
+                <li><a href="contribute.html">Contribute</a></li>
+<!--                <li><a href="http://docs.scikit-nano.org" target="_blank">Documentation</a></li> -->
+            </ul>
+        </div>
+        <div class="search pull-right">
+            <form action="http://scikit-nano.org/doc/search.html" method="get">
+              <input type="text" name="q" placeholder="Search Documentation" />
+              <input type="hidden" name="check_keywords" value="yes" />
+              <input type="hidden" name="area" value="default" />
+            </form>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <img src="images/scikit-nano_banner.svg" width="524" onerror="this.src='images/scikit-nano_banner.png'; this.onerror=null;" alt="scikit-nano: a Python Toolkit for Nanoscience" />
+        <p>The scikit-nano Project is an open-source Python toolkit for nanoscience.</p>
+        <div id="documentation">
+            <a class="button" href="http://scikit-nano.org/doc" target="_blank">Current Documentation</a>
+            <span class="button">Other Docs ▼</span>
+            <ul class="dropdown">
+                <li><a href="http://scikit-nano.org/doc/dev" target="_blank">In Development</a></li>
+                <li><a href="https://scikit-nano.readthedocs.org/en/v0.4.0/index.html" target="_blank">v0.4.0</a></li>
+            </ul>
+        </div>
+        <p class="version">Current Version: 0.3.21</p>
+        <!-- <p class="acknowledge">Please remember to <a href="about.html#acknowledge">acknowledge</a> the use of scikit-nano!</a></p> -->
+    </section>
+
+
+    <section class="install">
+        <h2>Install scikit-nano</h2>
+        <div id="os-selector">
+            <ul>
+                <li><a href="#osx"><i class="fa fa-apple"></i><span> OS X</span></a></li>
+                <li><a href="#linux"><i class="fa fa-linux"></i><span> Linux</span></a></li>
+                <li><a href="#windows"><i class="fa fa-windows"></i><span> Windows</span></a></li>
+                <li><a href="#source"><i class="fa fa-code"></i><span> Source</span></a></li>
+                <li><a href="#dev" class="right"><i class="fa fa-github"></i><span> Developer</span></a></li>
+            </ul>
+
+            <div id="osx">
+                <p>
+                You can install the latest version of scikit-nano using <a href="http://www.pip-installer.org/">pip</a> or by downloading the source code and installing it manually - see the <a href="#source">Source</a> tab above for more details.
+                </p>
+            </div>
+            <div id="linux">
+                <p>
+                You can install the latest version of scikit-nano using <a href="http://www.pip-installer.org/">pip</a> or by downloading the source code and installing it manually - see the <a href="#source">Source</a> tab above for more details.
+                </p>
+            </div>
+            <div id="windows">
+                <p>
+                You can install the latest version of scikit-nano using <a href="http://www.pip-installer.org/">pip</a> or by downloading the source code and installing it manually - see the <a href="#source">Source</a> tab above for more details.
+                </p>
+            </div>
+            <div id="source">
+                <p>To install scikit-nano from source, you can either use</p>
+                <pre>pip install scikit-nano</pre>
+                <p>Alternatively, you can download a tarball for the latest release of scikit-nano from <a class="button" target="_blank" href="https://pypi.python.org/pypi/scikit-nano">PyPI</a>, then expand the tarfile and run:</p>
+                <pre>python setup.py install</pre>
+                <p>to build and install the package. For more on installing from source code, see the <a href="http://scikit-nano.readthedocs.org/en/stable/install.html#building-from-source"> relevant part of the documentation</a>.</p>
+            </div>
+            <div id="dev">
+                <p>The latest developer code is available on <a href="https://github.com/scikit-nano/scikit-nano">GitHub</a>. If you have <a href="http://git-scm.com/">git</a> installed you can get the latest version with:</p>
+                    <pre>git clone https://github.com/scikit-nano/scikit-nano.git</pre>
+                    <p>If you don't have git installed, you can instead download a zip file of the
+                    <a href="https://github.com/scikit-nano/scikit-nano/archive/master.zip">latest development version</a>.</p>
+                <p>Once you have the latest source code, you can build and install it with:</p>
+                <pre>python setup.py install</pre>
+                <p>For more on installing from source code, see the <a href="http://scikit-nano.readthedocs.org/en/latest/install.html#building-from-source"> relevant part of the documentation</a>.</p>
+            </div>
+
+        </div>
+
+        <p>Do none of the above instructions work for your system, or do you need more detailed instructions? Check out the <a href="http://scikit-nano.readthedocs.org/en/stable/install.html">installation instructions</a> in our documentation.</p>
+    </section>
+
+    <section class="whatsnext">
+        <h2>What's Next?</h2>
+        <p>Once you have installed scikit-nano, you can head over to the <a
+        href="https://scikit-nano.org/doc">documentation</a> for an overview of the
+        functionality available in scikit-nano. Each section of the documentation
+        contains a "Getting started" section that will demonstrate the basic
+        functionality, and you will then also be able to browse the full
+        documentation to find out more.
+        </p>
+        <a class="button" href="http://scikit-nano.org/doc/getting_started.html" target="_blank">Get Started with scikit-nano</a>
+
+        <p>
+        If you run into any issues when using
+        scikit-nano, please report them using the
+        <a href="https://github.com/scikit-nano/scikit-nano/issues">issue tracker</a>.
+        Finally, If you have any questions regarding using scikit-nano, or have feedback on how we
+        can improve the package, please head over to our
+        <a href="contribute.html">feedback and contributing</a> or
+        <a href="help.html">help</a> pages.</p>
+
+        <a class="button" href="contribute.html" target="_blank">Contribute feedback or code</a>
+        <a class="button" href="https://github.com/scikit-nano/scikit-nano/issues" target="_blank">Report issues</a>
+    </p>
+    </section>
+
+    <section class="cite">
+        <h2>Support scikit-nano</h2>
+        <p>If you use scikit-nano in your work, we would be grateful if you could include an acknowledgment in papers and/or presentations. See <a href="about.html#acknowledge">Acknowledging scikit-nano</a> for details. </p>
+    </section>
+
+    <footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <!-- <script src="//cdn.jsdelivr.net/jquery/2.2.0/jquery.min.js"></script> -->
+        <script src="js/jquery.sidr.min.js"></script>
+        <script src="js/functions.js"></script>
+    </footer>
+
+</div>
+
+</body>
+</html>
