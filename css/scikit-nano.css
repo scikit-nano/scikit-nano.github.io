@@ -269,7 +269,7 @@ nav .pull-right{
 
 .search input{
     margin-top: 4px;
-    width: 160px;
+    width: 180px;
     height: 18px;
     border: 1px solid #ccc;
     -webkit-border-radius: 3px;
@@ -317,11 +317,11 @@ nav .pull-right{
     }
 
     .search input{
-        width: 160px;
+        width: 140px;
     }
 
     nav img{
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
 }
