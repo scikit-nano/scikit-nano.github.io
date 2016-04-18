@@ -269,7 +269,7 @@ nav .pull-right{
 
 .search input{
     margin-top: 4px;
-    width: 180px;
+    width: 160px;
     height: 18px;
     border: 1px solid #ccc;
     -webkit-border-radius: 3px;
@@ -286,7 +286,7 @@ nav .pull-right{
 }
 
 #mobile-header a{
-    width: 46px;
+    width: 42px;
     display:block;
 }
 
@@ -307,7 +307,7 @@ nav .pull-right{
 @media only screen and (max-width: 840px){
     #mobile-header {
         display: inline-block;
-        width: 46px;
+        width: 42px;
         height: 42px;
         border-right:1px solid white;
     }
@@ -317,7 +317,7 @@ nav .pull-right{
     }
 
     .search input{
-        width: 180px;
+        width: 160px;
     }
 
     nav img{
